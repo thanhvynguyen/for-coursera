@@ -1,0 +1,111 @@
+
+/***Base Styles***/
+
+*{
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+}
+
+h1{
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/***Simple Responsive Framework***/
+
+.row{
+  width: 100%;
+}
+
+.item1,
+.item2,
+.item3{
+  padding: 15px 15px 15px 15px;
+  float:left;
+  overflow: scroll;
+}
+
+#juice{
+  color: black;
+  background-color: #F39C12;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  float: right;
+  margin-top: 0px;
+  padding-top: 5px;
+  width: 25%;
+  height: 30px;
+  overflow: scroll;
+
+}
+
+#coffee{
+  color: white;
+  background-color: #6E2C00;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  float: right;
+  margin-top: 0px;
+  padding-top: 5px;
+  width: 25%;
+  height: 30px;
+  overflow: scroll;
+
+}
+
+#tea{
+  color: black;
+  background-color: #239B56;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  float: right;
+  margin-top: 0px;
+  padding-top: 5px;
+  width: 25%;
+  height: 30px;
+  overflow: scroll;
+
+}
+
+.description{
+  color: black;
+  background-color: #808080;
+  border: 1px solid black;
+  padding: 25px 20px 20px 20px;
+}
+
+/***Desktop View***/
+@media (min-width: 992px){
+  .item1,
+  .item2,
+  .item3{
+    width: 33.33%;
+  }
+}
+
+/***Tablet View***/
+@media (min-width: 768px) and (max-width: 991px){
+  .item1,
+  .item2{
+    width: 50%;
+  }
+  .item3{
+    width: 100%;
+  }
+}
+
+/***Mobile View***/
+@media (max-width: 767px){
+  .item1,
+  .item2,
+  .item3{
+    width: 100%;
+  }
+}
+
+
