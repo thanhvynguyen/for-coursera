@@ -1,0 +1,61 @@
+*{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#header-nav {
+  background-color: #999999;
+  border: 0px;
+  border-radius: 0px;
+  width: 100%;
+  }
+
+#header-nav .navbar-brand a{
+  color: black;
+  font-weight: bold;
+}
+
+.menu-header{
+	font-weight: bold;
+}
+
+#chicken,
+#beef,
+#sushi{
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#header-nav .navbar-toggle:hover span.icon-bar, #header-nav .navbar-toggle:focus span.icon-bar {
+  background: #999999;
+ }
+
+.navbar-header button.navbar-toggle, .icon-bar{
+border: 2px solid black;
+}
+
+#header-nav span.icon-bar{
+  background: #999999;
+  border: 2px solid black;
+}
+
+#nav-list{
+  background-color: #C0C0C0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#nav-list hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 1px solid black;
+}
+
+.menu-header{
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+.menu-content{
+  background: #999999;
+  margin-bottom: 30px;
+  color: black;
+}
